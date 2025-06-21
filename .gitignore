@@ -1,0 +1,58 @@
+# Ignore everything by default
+*
+
+# Allow only these essential files and folders for version control
+!.gitignore
+!README.md
+!manifest.json
+!pack.mcmeta
+!config/
+!scripts/
+!overrides/
+!resources/
+!LICENSE
+
+# Allow all contents inside allowed folders
+config/**
+scripts/**
+overrides/**
+resources/**
+
+# Exclude the mods folder and all jar files (copyrighted, large, not static)
+mods/
+*.jar
+
+# Exclude exported CurseForge/Modrinth modpack files
+*.zip
+*.mrpack
+
+# Exclude temporary, local, and log files
+logs/
+crash-reports/
+*.log
+*.tmp
+*.bak
+*.old
+.cache/
+tmp/
+*.lck
+*.lock
+
+# Exclude Minecraft-specific local files
+options.txt
+usercache.json
+launcher_profiles.json
+servers.dat
+eula.txt
+
+# Exclude IDE/editor-specific files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Exclude OS-specific metadata
+.DS_Store
+Thumbs.db
+desktop.ini
