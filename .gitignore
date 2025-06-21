@@ -6,17 +6,23 @@
 !README.md
 !manifest.json
 !pack.mcmeta
+!datapacks/
+!defaultconfigs/
 !config/
+!kubejs/
 !scripts/
 !overrides/
 !resources/
 !LICENSE
 
 # Allow all contents inside allowed folders
-config/**
-scripts/**
-overrides/**
-resources/**
+!datapacks/**
+!defaultconfigs/**
+!config/**
+!scripts/**
+!kubejs/**
+!overrides/**
+!resources/**
 
 # Exclude the mods folder and all jar files (copyrighted, large, not static)
 mods/
